@@ -1,9 +1,5 @@
 class Food{
     cosntructor(x,y){
-        this.body = Bodies.rectangle(x, y, 40, 40);
-        this.width = 40;
-        this.height = 40;
-        this.image = loadImage("images/Milk.png");
     }
     display(){
         var x = 80, y = 100; 
